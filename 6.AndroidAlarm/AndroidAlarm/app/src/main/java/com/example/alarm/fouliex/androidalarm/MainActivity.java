@@ -16,6 +16,8 @@ import android.widget.Toast;
  * <p>
  * In addition, the Android AlarmManager hold a CPU wake lock that guarantee that the phone will not
  * go to sleep until a broadcast is handled.
+ * <p>
+ * This AlarmManager examples runs an alarm sound after a specific time is provided from the User.
  */
 public class MainActivity extends AppCompatActivity {
     Button button;

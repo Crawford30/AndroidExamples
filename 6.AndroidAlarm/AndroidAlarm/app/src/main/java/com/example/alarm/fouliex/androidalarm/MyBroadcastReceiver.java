@@ -14,7 +14,7 @@ MediaPlayer mediaPlayer;
     @Override
     public void onReceive(Context context, Intent intent) {
         //TODO add an alarm file
-        //mediaPlayer = MediaPlayer.create(context,R.raw.alrm);
+        mediaPlayer = MediaPlayer.create(context,R.raw.alarm);
         mediaPlayer.start();
         Toast.makeText(context,"Alarm...",Toast.LENGTH_LONG).show();
     }
