@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String filename = editTextFileName.getText().toString();
                 StringBuffer stringBuffer = new StringBuffer();
-
                 try {
                     BufferedReader inputReader = new BufferedReader(new InputStreamReader(openFileInput(filename)));
                     String inputString;
@@ -49,9 +48,9 @@ public class MainActivity extends AppCompatActivity {
                         stringBuffer.append(inputString + "\n");
                     }
                 } catch (FileNotFoundException e) {
-                    e.printStackTrace();
+                    Toast.makeText(getApplicationContext(), e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    Toast.makeText(getApplicationContext(), e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
                 }
                 Toast.makeText(getApplicationContext(), stringBuffer.toString(),
                         Toast.LENGTH_LONG).show();
@@ -66,18 +65,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String filename = editTextFileName.getText().toString();
                 String data = editTextData.getText().toString();
-
                 FileOutputStream fos;
-
                 try {
                     fos = openFileOutput(filename, Context.MODE_PRIVATE);
                     fos.write(data.getBytes());
                     fos.close();
-
                     Toast.makeText(getApplicationContext(), filename + " saved", Toast.LENGTH_LONG).show();
                 } catch (FileNotFoundException e) {
-                    e.printStackTrace();
+                    Toast.makeText(getApplicationContext(), e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
                 } catch (IOException e) {
+                    Toast.makeText(getApplicationContext(), e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
                     e.printStackTrace();
                 }
             }
