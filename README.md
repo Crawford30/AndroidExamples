@@ -1,4 +1,4 @@
-<img src="https://github.com/fouliex/AndroidExamples/blob/master/Resources/images/AndroidExamplesLogo.jpg" alt="Drawing" style="width: 50px;"/>Android Examples
+<img src="https://github.com/fouliex/AndroidExamples/blob/master/Resources/images/AndroidExamplesLogo.jpg" style="width: 25px;"/>Android Examples
 This repo covers basic and some advanced concepts of Android technology.
 
 ## Android Widgets
