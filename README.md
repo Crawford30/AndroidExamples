@@ -4,7 +4,7 @@ This repo covers basic and some advanced concepts of Android technology.
 ## Android Widgets
 This section provides  a lot of simplified example of `Android Widgets` such as `Button`, `EditText`,`Toast` etc.
 * [**Button**](https://github.com/fouliex/AndroidExamples/tree/master/1.AndroidWidgets/AndroidButton)
-* Toast
+* [**Toast**](https://github.com/fouliex/AndroidExamples/tree/master/1.AndroidWidgets/AndroidToast)
 * Custom Toast
 * ToggleButton
 * CheckBox
