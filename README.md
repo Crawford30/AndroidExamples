@@ -1,4 +1,5 @@
-# Android Examples
+# ![Androi Example logo](https://github.com/fouliex/AndroidExamples/blob/master/Resources/images/AndroidExamplesLogo.jpg) Android Examples
+
 This repo covers basic and some advanced concepts of Android technology.
 
 ## Android Widgets
