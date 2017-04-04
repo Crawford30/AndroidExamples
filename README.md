@@ -20,3 +20,24 @@ This section provides information on how an activity works, it's life cycle,what
 *	[**Explicit Intent**](https://github.com/fouliex/AndroidExamples/tree/master/2.AndroidActivityAndIntents/AndroidIntents)
 * 	StactActivityForResult
 
+## Android Fragment
+* Android Fragment
+
+## Android Menu
+* Context Menu
+* Option Menu
+
+## Android Service
+* Android Service
+
+## Android Alarm
+* Android Alarm
+
+## Android Storage
+* Android External Storage
+* Android internal Storage
+* Android Preferences
+
+## Android Camera
+* Android Camera
+* Android Video
