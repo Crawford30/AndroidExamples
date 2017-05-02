@@ -1,4 +1,4 @@
-# ![Android Examples Logo](https://github.com/fouliex/AndroidExamples/blob/master/Resources/images/AndroidExamplesLogo.jpg) Android Examples
+# ![Android Examples Logo](https://github.com/fouliex/AndroidExamples/blob/master/Resources/images/AndroidExamplesLogo.jpg) Android Examples(In Progress)
 
 This repo covers basic and some advanced concepts of Android technology.
 
